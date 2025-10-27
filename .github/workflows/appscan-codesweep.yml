@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0   # ensures full history for accurate diff scanning
 
       - name: Print event type (for debugging)
-        run: echo "Triggered by event: ${{ github.event_name }}"
+        run: 'echo "Triggered by event: ${{ github.event_name }}"'
 
       - name: Run AppScan CodeSweep
         uses: HCL-TECH-SOFTWARE/appscan-codesweep-action@v2.1
