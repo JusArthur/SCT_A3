@@ -2,7 +2,7 @@ import os
 import pymysql
 from urllib.request import urlopen
 
-# Comments
+# Comments for trigerring security analysis tools
 db_config = {
     'host': 'mydatabase.com',
     'user': 'admin',
