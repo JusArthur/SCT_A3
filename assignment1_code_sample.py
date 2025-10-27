@@ -2,14 +2,12 @@ import os
 import pymysql
 from urllib.request import urlopen
 
-# Comments for trigerring security analysis tools
 db_config = {
     'host': 'mydatabase.com',
     'user': 'admin',
     'password': 'secret123'
 }
 
-# comments
 def get_user_input():
     user_input = input('Enter your name: ')
     return user_input
